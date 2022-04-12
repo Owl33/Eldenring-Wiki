@@ -1,0 +1,36 @@
+.list{
+    text-align: center;
+    padding: 2em ;
+    margin: 2em ;
+    border: 1px solid darkgray;
+}
+
+.imgbox h1{
+    padding: 1em;
+}
+
+.effect{
+    color: #ab8e4f;
+}
+.image{
+    width: 100%;
+}
+@media screen and (min-width:481px) and (max-width:1023px) {
+    .list{
+        padding:1em;
+        margin: 1em;
+    }
+    .imgbox h1{
+        font-size: 1.3em;
+    }
+  }
+  @media screen and (max-width:480px){
+    .list{
+        padding: 1em;
+        margin: 1em;
+
+    }
+    .imgbox h1{
+        font-size: 1em;
+    }
+  }

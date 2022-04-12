@@ -1,0 +1,45 @@
+.list{
+    text-align: center;
+    padding: 2em ;
+    margin: 2em ;
+    border: 1px solid darkgray;
+}
+.imgbox img{
+    width: 100%;
+    height:250px;
+}
+.imgbox h1{
+    padding: 1em;
+}
+.drops p{
+    color: #ab8e4f;
+}
+
+
+@media screen and (min-width:481px) and (max-width:1023px) {
+    .list{
+        padding:1em;
+        margin: 1em;
+    }
+    .imgbox img{
+        width: 100%;
+        height: 150px;
+    }
+    .imgbox h1{
+        font-size: 1.3em;
+    }
+  }
+  @media screen and (max-width:480px){
+    .list{
+        padding: 1em;
+        margin: 1em;
+    }
+
+    .imgbox img{
+        width: 100%;
+        height: 150px;
+    }
+    .imgbox h1{
+        font-size: 1em;
+    }
+  }

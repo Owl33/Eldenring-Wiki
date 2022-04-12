@@ -1,0 +1,46 @@
+.list{
+    text-align: center;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* text-align: center; */
+    padding: 2em ;
+    margin: 2em ;
+    border: 1px solid darkgray;
+    cursor: pointer;
+    transition: 450ms ease-in-out;
+}
+.list h1{
+    padding: 1em;
+}
+.image{
+    max-width: 200px;
+    max-height: 200px;
+}
+.list:hover{
+    transform: scale(1.1);
+}
+
+@media screen and (min-width:481px) and (max-width:1023px) {
+    .image{
+        width: 100%;
+    }
+    .list{
+        padding:1em;
+        margin: 1em;
+    }
+    .list h1{
+        font-size: 1.3em;
+    }
+  }
+  @media screen and (max-width:480px){
+    .image{
+        width: 100%;
+    }
+    .list{
+        padding: 1em;
+        margin: 1em;
+    }
+    .list h1{
+        font-size: 1.3em;
+    }
+  }

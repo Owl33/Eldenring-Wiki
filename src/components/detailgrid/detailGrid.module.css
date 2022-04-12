@@ -1,0 +1,81 @@
+.section{
+    text-align: center;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* text-align: center; */
+    padding: 2em ;
+    margin: 2em ;
+    border: 1px solid darkgray;
+    
+}
+.imgbox img{
+    max-width: 200px;
+    max-height: 200px;
+}
+.imgbox h1{
+    padding: 1em 0;
+}
+.attacktype{
+    display: flex;
+    justify-content: space-around;
+}
+.armor{
+    display: flex;
+    justify-content: space-around;
+}
+
+.dmgNegation{
+    display: block;
+}
+.requirement{
+    display: flex;
+    justify-content: center;
+}
+.resistance{
+    display: block;
+}
+.scales{
+    display: flex;
+    justify-content: center;
+}
+.weigth{
+    padding: 1em;
+}  
+@media screen and (min-width:481px) and (max-width:1023px) {
+    .section{
+        padding:1em;
+        margin: 1em;
+    }
+    .imgbox img{
+        width: 100%;
+    }
+    .imgbox h1{
+        font-size: 1em;
+    }
+    h3{
+        font-size: 0.8em;
+    }
+
+  }
+
+  @media screen and (max-width:480px){
+    .section{
+        padding:1em;
+        margin: 1em;
+    }
+    .imgbox img{
+        width: 100%;
+    }
+    .imgbox h1{
+        font-size: 1em;
+    }
+    h3{
+        font-size: 0.8em;
+    }
+    .resistance{
+        font-size: 0.9em;
+    }
+    .dmgNegation{
+    font-size: 0.9em;
+    }
+  }
