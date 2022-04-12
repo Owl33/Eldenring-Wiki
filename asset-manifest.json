@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Eldenring-Wiki/static/css/main.5add73e0.css",
-    "main.js": "/Eldenring-Wiki/static/js/main.0af02a64.js",
-    "static/media/elden-ring-poster.jpg": "/Eldenring-Wiki/static/media/elden-ring-poster.a41f993db67cb1990905.jpg",
-    "static/media/logo.png": "/Eldenring-Wiki/static/media/logo.045a5cb9e66f0ccec8d7.png",
-    "index.html": "/Eldenring-Wiki/index.html",
-    "main.5add73e0.css.map": "/Eldenring-Wiki/static/css/main.5add73e0.css.map",
-    "main.0af02a64.js.map": "/Eldenring-Wiki/static/js/main.0af02a64.js.map"
+    "main.css": "/static/css/main.5add73e0.css",
+    "main.js": "/static/js/main.e49a7c2d.js",
+    "static/media/elden-ring-poster.jpg": "/static/media/elden-ring-poster.a41f993db67cb1990905.jpg",
+    "static/media/logo.png": "/static/media/logo.045a5cb9e66f0ccec8d7.png",
+    "index.html": "/index.html",
+    "main.5add73e0.css.map": "/static/css/main.5add73e0.css.map",
+    "main.e49a7c2d.js.map": "/static/js/main.e49a7c2d.js.map"
   },
   "entrypoints": [
     "static/css/main.5add73e0.css",
-    "static/js/main.0af02a64.js"
+    "static/js/main.e49a7c2d.js"
   ]
 }
